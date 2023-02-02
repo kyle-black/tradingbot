@@ -1,0 +1,50 @@
+<script src="KrakenWebSocketLibrary.js"></script>
+<head>
+  <link rel = "stylesheet"
+        type = "text/css"
+        href = "KrakenWebSocketStyles.css" />
+</head>
+
+<div id="header">
+  <img src="KrakenLogo.jpg" alt="Kraken" height="30", width="30">
+  <h1 class="kraken-header" >Kraken WebSocket API Example</h1>
+</div>
+
+<br/>
+
+<div id="sendMsg">
+  <label style="font-weight: bold;">Enter WebSocket Message:</label>
+  <br/>
+  <input type="text" 
+         id="webSocketMessageInput"  
+         size = "100"
+         value='{"event":"subscribe", "subscription":{"name":"trade"}, "pair":["XBT/USD"]}'>
+  <br/>
+  <br/>
+  <button type="button" 
+          class="kraken-cta btn-purple"
+          id="sendWebSocketMessageBtn" 
+          onclick="sendWebSocketMessage();">Send Message To Websocket</button>
+  <br/>
+</div>
+
+<div id="outputConsole" class="output-console" >
+    **** WELCOME TO THE KRAKEN WEBSOCKET API DEMO :) *****
+</div>
+<br/>
+
+<div id="closeConnection"> 
+  <button type="button" 
+          class="kraken-cta btn-purple"
+          id="openWebSocketBtn" 
+          onclick="openWebSocket();">Open WebSocket Connection</button>
+  <br/>
+  <button type="button" 
+          class="kraken-cta btn-purple"
+          id="closeWebSocketBtn" 
+          onclick="closeWebSocket();">Close WebSocket Connection</button>
+</div>
+  
+  
+
+

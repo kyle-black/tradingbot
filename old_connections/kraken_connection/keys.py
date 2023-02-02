@@ -1,0 +1,9 @@
+# Kraken API Key: "tradingbot1"
+
+
+#API_KEY = 'tgZHNib1pQ2m3UekuEX72BQOtemwtYOgl3hqvp4jmdSjNkB4PSiYlePJ'
+
+#PRIVATE_KEY = 'egPbozqEw8IGi0gPK2Hbk2Ujut5xpxvu+5mZ4hsMm29WwC5o+L9UbvVyKwBmkw8F2m4+mQ6FZAVa95a101hQdg=='
+
+API_KEY ='cUhHIXoBFym/vlnnBEGtftwXEpgBWvnBX6FQUi0BqFED7JbMzEKITJMM'
+PRIVATE_KEY ='RHGl0QJK1y1nbA8Na1xDZRDhNu955YOy2v4LEnisO608jmes+7BqE5jXxRK7fP8rppRLxgmqrHlP+rVflAM8kw=='

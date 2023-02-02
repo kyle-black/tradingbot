@@ -1,0 +1,58 @@
+.output-console
+{
+  width:1000px;
+  height:300px;
+  line-height:3em;
+  overflow:auto;
+  background: #000;
+  border: 3px groove #ccc;
+  color: #ccc;
+  display: block;
+  padding: 5px;
+  overflow-wrap: break-word;
+}
+
+img
+{
+  float: left;
+}
+
+.btn-purple 
+{
+  background-color: #5741d9;
+  color: #fff !important;
+  font-size: 16px;
+}
+
+.kraken-cta 
+{
+  display: block;
+  padding: 12px 15px 11px 15px;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Celias";
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: bold;
+  position: relative;
+  transition: opacity 0.2s linear 0s;
+  border: 2px solid transparent;
+}
+
+.kraken-header
+{
+color:#5741d9;
+letter-spacing: -2px;
+text-align: left;
+-webkit-font-smoothing: antialiased;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+font-family: "Celias";
+font-weight: bold;
+font-size: 30px;
+position: relative;
+}
